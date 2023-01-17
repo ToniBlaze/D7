@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: aqua;
+    
+    display: flex;
+    align-items: center;
+}
+
+header, nav, article, div, footer {
+    padding-left: 1rem;
+}
+
+
+main {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+}
+
+nav {
+    width: 20%;
+    background-color: orange;
+    padding-top: 1rem;
+}
+
+article {
+    width: 50%;
+    background-color: rgb(241, 194, 106);
+    padding-top: 1rem
+}
+
+div {
+    width: 30%;
+    background-color: rgb(243, 243, 165);
+
+    padding-top: 1rem
+}
+
+footer {
+    height: 10vh;
+    background-color: rgb(9, 143, 143);
+    padding-top: 1rem;
+    width: 100vw;
+}
