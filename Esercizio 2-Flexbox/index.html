@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>layout-flex-2</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4ff9d5921a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -37,7 +38,9 @@
             <a href="#">Print</a>
             <a href="#">Product Design</a>
             <a href="#">Typography</a>
-            <a href="#">Web Design</a>
+            <div class="categories-focused">
+                <a href="#">Web Design</a>
+            </div>
         </div>
 
         <div class="filters">
@@ -48,20 +51,22 @@
     <main>
         <!-- 1 CARD -->
         <div class="card">
-            <div>
-                <img src="" alt="">
+            <div class="img">
+                <img src="assets\img_1.jpeg" alt="prima immagine">
             </div>
-            <div class="cart-text">
-                <div class="card-text-left">
-                    <!-- mettere icona "Utente"-->
-                    <span>Artist</span>
-                    <!-- mettere icona "Pro/Team"-->
+            <div class="card-text">
+                <div>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>Name Surname</span>
+                    <div class="pro">
+                        <span>PRO</span>
+                    </div>
                 </div>
 
-                <div class="card-text-right">
-                    <!-- mettere icona "likes"-->
+                <div>
+                    <i class="fa-solid fa-heart"></i>
                     <span>648</span>
-                    <!-- mettere icona "views"-->
+                    <i class="fa-solid fa-eye"></i>
                     <span>125k</span>
                 </div>
             </div>
