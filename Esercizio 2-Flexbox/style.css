@@ -34,7 +34,8 @@ header div {
     justify-content: space-between;
     
     margin: 1rem 0;
-    width: 40%;
+    width: 30%;
+    max-width: 600px;
 }
 
 header div span {
@@ -73,7 +74,8 @@ nav {
 
 .categories {
     font-size: 0.8rem;
-    width: 60%;
+    width: 50%;
+    max-width: 800px;
     
     display: flex;
     justify-content: space-between;
